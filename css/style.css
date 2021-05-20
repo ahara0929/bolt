@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+  font-family: "Garamond" ;
+}
+
 .header {
   position:fixed;
   width: 100%;
@@ -24,11 +28,13 @@
   position: absolute;
   bottom: 10px;
   right: 250px;
+  transition: 0.3s;
 }
 
 .header_box:hover {
   transition: 0.3s;
   color: #333;
+  cursor: pointer;
 }
 
 header .header_icon .header_box {
@@ -45,12 +51,14 @@ header .header_icon .header_box {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
+  font-family: sans-serif;
 }
 
 .sub_title {
   font-size: 30px;
   color: #c0c0c0;
   padding-top: 20px;
+  font-family: sans-serif;
 }
 
 .green_wrap {
@@ -110,6 +118,7 @@ header .header_icon .header_box {
 .photo_box img:hover {
   transition: 0.3s;
   opacity: 1;
+  cursor: pointer;
 }
 
 .photo_box_title {
@@ -138,11 +147,13 @@ header .header_icon .header_box {
   margin-top: 90px;
   margin-left: 90px;
   vertical-align: top;
+  transition: 0.3s;
 }
 
 .mail_box:hover {
   transition: 0.3s;
   color: #333;
+  cursor: pointer;
 }
 
 .circle_box {
@@ -194,6 +205,7 @@ header .header_icon .header_box {
 .sns_icon:hover {
   transition: 0.3s;
   background-color: white;
+  cursor: pointer;
 }
 
 .footer_box {
