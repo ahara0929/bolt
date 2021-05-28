@@ -6,17 +6,16 @@ body {
 
 .header {
   position:fixed;
-  width: 100%;
-  padding: 15px 0;
+  width: auto;
+  padding: 15px 200px;
   background-color: white;
   z-index: 9999;
 }
 
 .header .inner {
   display: flex;
-  justify-content: space-between;
+  width: 1100px;
   margin: 0 auto;
-  width: 50%;
 }
 
 .header_box {
@@ -24,6 +23,7 @@ body {
   color: white;
   font-size: 12px;
   padding: 14px 12px;
+  margin-left: 900px;
   transition: all 0.3s;
 }
 
@@ -34,12 +34,12 @@ body {
 
 .theme {
   background-color: #f2f2f2;
-  width: 100%;
   padding: 320px 0 250px;
 }
 
 .theme .inner {
   text-align: center;
+  width: 100%;
 }
 
 .title {
@@ -84,37 +84,29 @@ body {
 
 .photo_box {
   background-color: #f2f2f2;
+  width: 100%;
 }
 
 .photo_box .inner {
   text-align: center;
-}
-
-.photo_wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  width: 1100px;
+  display: inline-block;
 }
 
 .photo {
-  margin-left: 100px;
-  margin-bottom: 80px;
   opacity: 0.7;
   transition: all 0.3s;
-}
-
-.inner .photo:nth-child(1),.inner .photo:nth-child(4){
-  margin-left: 0;
-}
-
-.inner .photo:nth-child(n+4) {
-  margin-bottom: 0;
 }
 
 .photo:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.photo_box .inner .li {
+  margin-left: 100px;
+  margin-bottom: 80px;
+  width: 300px;
 }
 
 .photo_box_title {
@@ -138,7 +130,7 @@ body {
   margin-top: 90px;
   margin-left: 90px;
   vertical-align: top;
-  transition: all 0.3s;
+  tansition: all 0.3s;
 }
 
 .mail_box:hover {
