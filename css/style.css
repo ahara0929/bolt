@@ -51,7 +51,7 @@
 .sub_title {
   font-size: 30px;
   color: #c0c0c0;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .green_box {
@@ -69,7 +69,7 @@
   vertical-align: top;
   text-align: center;
   color: white;
-  padding-left: 70px;
+  margin-left: 70px;
 }
 
 .green_box_text_title {
@@ -78,8 +78,9 @@
 }
 
 .green_box_text {
+  width: 650px;
   font-size: 20px;
-  padding-top: 35px;
+  margin-top: 35px;
   font-family: Lato;
   line-height: 30px;
 }
@@ -101,11 +102,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 40px 0 90px;
+  margin: 40px 0 90px;
 }
 
 .photo_wrap li {
-  margin: 0 0 80px 100px;
+  margin: 80px 0 0 100px;
   max-width: 300px;
   height: 300px;
 }
@@ -114,8 +115,8 @@
   margin-left: 0;
 }
 
-.photo_wrap li:nth-child(n+4) {
-  margin-bottom: 0;
+.photo_wrap li:nth-child(-n+3){
+  margin-top: 0;
 }
 
 .photo {
@@ -136,6 +137,7 @@
 
 .photo_box_text {
   text-align: center;
+  width: 500px;
   font-family: Raleway;
   line-height: 23px;
 }
@@ -165,6 +167,10 @@
 .circle_box_title {
   font-size: 24px;
   font-family: Raleway;
+  text-align: center;
+}
+
+.circle_wrap {
   text-align: center;
 }
 
