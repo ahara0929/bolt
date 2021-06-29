@@ -69,7 +69,7 @@
   vertical-align: top;
   text-align: center;
   color: white;
-  margin-left: 70px;
+  margin: 20px 0 0 70px;
 }
 
 .green_box_text_title {
@@ -102,7 +102,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 90px;
+  margin-top: 40px;
 }
 
 .photo_wrap li {
@@ -133,6 +133,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 90px;
 }
 
 .photo_box_text {
@@ -172,11 +173,12 @@
 
 .circle_wrap {
   text-align: center;
+  margin-top: 50px;
 }
 
 .circle_frame {
   display: inline-block;
-  margin: 50px 0 0 180px;
+  margin-left: 180px;
   text-align: center;
 }
 
@@ -207,7 +209,9 @@
 .sns_icon {
   color: #74cfae;
   display: block;
-  padding: 20px 77.5px;
+  width: 185px;
+  padding: 20px 0;
+  text-align: center;
   transition: all 0.3s;
 }
 
