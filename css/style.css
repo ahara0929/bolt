@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-.body {
-  font-family:Lato
+body {
+  font-family: 'Lato';
 }
 
 .inner {
@@ -69,14 +69,14 @@
 
 .green_box-inner {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .green_box_text_wrap {
   vertical-align: top;
   text-align: center;
   color: white;
-  margin: 20px 0 0 70px;
+  margin-top: 20px;
 }
 
 .green_box_text_title {
@@ -113,13 +113,8 @@
   margin: 80px 0 0 100px;
 }
 
-.photo_wrap li:nth-child(2),.photo_wrap li:nth-child(3) {
+.photo_wrap li:nth-child(-n+3) {
   margin-top: 0;
-}
-
-.photo_wrap li:nth-child(1) {
-  margin-top: 0;
-  margin-left: 0;
 }
 
 .photo_wrap li:nth-child(3n+1) {
