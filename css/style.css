@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.body {
+  font-family:Lato
+}
+
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -18,15 +22,18 @@
   justify-content: space-between;
 }
 
-.Contact_button {
+.button {
   background-color: #74cfae;
   color: white;
   font-size: 12px;
-  padding: 14px 12px;
   transition: all 0.3s;
 }
 
-.Contact_button:hover {
+.contact_button {
+  padding: 14px 12px;
+}
+
+.button:hover {
   color: #333;
   cursor: pointer;
 }
@@ -74,14 +81,13 @@
 
 .green_box_text_title {
   font-size: 24px;
-  font-family: Raleway;
+  font-family: 'Raleway';
 }
 
 .green_box_text {
   width: 650px;
   font-size: 20px;
   margin-top: 35px;
-  font-family: Lato;
   line-height: 30px;
 }
 
@@ -93,35 +99,38 @@
 
 .photo_box_title {
   font-size: 24px;
-  font-family: Raleway;
+  font-family: 'Raleway';
   text-align: center;
 }
 
 .photo_wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   margin-top: 40px;
 }
 
 .photo_wrap li {
   margin: 80px 0 0 100px;
-  max-width: 300px;
-  height: 300px;
 }
 
-.photo_wrap li:nth-child(1),.photo_wrap li:nth-child(4){
+.photo_wrap li:nth-child(2),.photo_wrap li:nth-child(3) {
+  margin-top: 0;
+}
+
+.photo_wrap li:nth-child(1) {
+  margin-top: 0;
   margin-left: 0;
 }
 
-.photo_wrap li:nth-child(-n+3){
-  margin-top: 0;
+.photo_wrap li:nth-child(3n+1) {
+  margin-left: 0;
 }
 
 .photo {
   opacity: 0.7;
   transition: all 0.3s;
+  display: block;
+  height: 300px;
 }
 
 .photo:hover {
@@ -139,23 +148,14 @@
 .photo_box_text {
   text-align: center;
   width: 500px;
-  font-family: Raleway;
+  font-family: 'Raleway';
   line-height: 23px;
 }
 
 .mail_button {
-  font-size: 12px;
   padding: 14px 20px;
-  background-color: #74cfae;
-  color: white;
   margin-left: 90px;
-  transition: all 0.3s;
   text-decoration: none;
-}
-
-.mail_button:hover {
-  color: #333;
-  cursor: pointer;
 }
 
 .circle_box {
@@ -167,7 +167,7 @@
 
 .circle_box_title {
   font-size: 24px;
-  font-family: Raleway;
+  font-family: 'Raleway';
   text-align: center;
 }
 
@@ -188,7 +188,6 @@
 
 .circle_box p {
   margin-top: 10px;
-  font-family: Raleway;
 }
 
 .sns_box {
