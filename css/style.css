@@ -38,6 +38,10 @@ body {
   cursor: pointer;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 .theme {
   background-color: #f2f2f2;
   padding: 320px 0 250px;
@@ -224,4 +228,99 @@ body {
   display: flex;
   justify-content: flex-end;
   color: white;
+}
+
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .green_box {
+    padding-bottom: 25px;
+  }
+
+  .green_box-inner {
+    display: block;
+    text-align: center;
+  }
+
+  .green_box_text {
+    text-align: center;
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .photo_box-inner {
+    text-align: center;
+  }
+
+  .photo_wrap {
+    display: inline-block;
+  }
+
+  .photo_wrap li {
+    margin: 0;
+  }
+
+  .photo_wrap li:nth-child(3n+4) {
+    margin-top: 80px;
+  }
+
+  .photo_box_footer {
+    display: block;
+    margin-top: 80px;
+  }
+
+  .photo_box_text {
+    width: 100%;
+  }
+
+  .mail_button {
+    display: inline-block;
+    margin: 40px 0 0 0;
+  }
+
+  .circle_wrap {
+    width: 122px;
+    margin: 50px auto 0;
+  }
+
+  .circle_frame {
+    margin: 0;
+    display: block;
+  }
+
+  .circle_frame:nth-child(n+2) {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .inner {
+    width: 97%;
+  }
+
+  .contact_button {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1;
+  }
+
+  .menu-line {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 24px;
+    margin-top: 4px;
+  }
+
+  .menu-line:first-child {
+    margin-top: 0;
+  }
 }
